@@ -10,7 +10,7 @@ cask "free-comic-book-manga-reader" do
   desc "Free, keyboard-friendly comic book and manga reader for macOS"
   homepage "https://github.com/MalxMalx/FreeComicBookMangaReader"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "FreeComicBookMangaReader.app"
 
